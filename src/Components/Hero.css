@@ -9,6 +9,7 @@
     background-color: rgb(33, 31, 31);
     position: relative; 
     overflow: hidden; 
+    flex-direction: column;
 }
 
 .hero_content {
@@ -26,7 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: rgb(216, 216, 216);
     order: 1;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -70,6 +71,35 @@
     border-radius: 50%;
 }
 
+.arrow{
+    width: 80%;
+    height: 5vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: floatArrow 2s ease-in-out infinite;
+}
+
+.arrow p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+@keyframes floatArrow {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @media (max-width: 768px) {
     .hero_container,
     .hero_content {
@@ -104,6 +134,10 @@
 
     .hero_text p {
         padding-bottom: 10px;
+    }
+
+    .arrow{
+        display: none;
     }
 }
 
