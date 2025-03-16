@@ -1,0 +1,76 @@
+.projects_container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 50px 0; 
+    gap: 30px;
+}
+
+.projects_container h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    width: 80%;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.project_video {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_video video {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.project_details {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.project_details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project_details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project_buttons button{
+    width: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid black;
+}   
+
+.project_buttons button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
