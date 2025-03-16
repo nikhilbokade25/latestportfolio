@@ -29,10 +29,10 @@ export default function About() {
                     <p>A code enthusiast with a unique blend of front-end development skills and a passion for creating user-centered interfaces. I thrive on building projects that are both functional and aesthetically pleasing, always keeping accessibility in mind. When I'm not coding, you might find me enjoying live music or cooking.</p>
 
                     <div className="about_buttons">
-                        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer" className="linkedin-button">
+                        <a href="https://www.linkedin.com/in/nikhilbokade/" target="_blank" rel="noopener noreferrer" className="linkedin-button">
                             <FaLinkedin /> LinkedIn
                         </a>
-                        <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer" className="github-button">
+                        <a href="https://github.com/nikhilbokade25" target="_blank" rel="noopener noreferrer" className="github-button">
                             <FaGithub /> GitHub
                         </a>
                     </div>

@@ -110,4 +110,25 @@
     .about_image, .about_text{
         width: 100%;
     }
+    .about_container{
+        height: auto;
+    }
+
+    .about_image{
+        margin-top: 20px;
+    }
+
+    .about_text{
+        margin-top: -60px;
+        padding-bottom: 40px;
+    }
+
+    .about_text h1{
+        font-size: 45px;
+    }
+
+    .about_text p{
+        margin-top: 55px;
+    }
+
 }

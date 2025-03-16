@@ -74,3 +74,26 @@
     color: white;
     cursor: pointer;
 }
+
+@media(max-width:768px){
+    .project {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project_video, .project_details{
+        width: 100%;
+    }
+
+    .project_video video{
+        margin-top: 18px;
+    }
+    
+    .project_details p{
+        width: 90%;
+    }
+
+    .project_buttons{
+        width: 210%;
+    }
+}

@@ -47,6 +47,26 @@
     align-items: center;
 }
 
+.footer_about h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.footer_about h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease-in-out;
+}
+
+.footer_about h1:hover::after {
+    width: 100%;
+}
+
 
 @media(max-width:768px){
     .footer_content{
@@ -58,7 +78,15 @@
         text-align: center;
     }
 
-    .footer_about{
+
+    .footer_linkedin h2{
+        font-size: 18px;
+    }
+
+    .footer_about h1{
+        font-size: 35px;
+        text-align: center;
         justify-content: center;
+        align-items: center;
     }
 }

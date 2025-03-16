@@ -26,7 +26,6 @@ export default function Hero() {
 
         gsap.fromTo(revealDivRef.current, {
             height: '100vh',
-            
         }, {
             height: '0vh',
             duration: 1.5,
@@ -34,20 +33,19 @@ export default function Hero() {
         });
 
         gsap.fromTo(
-            portfolioImageRef.current, 
+            portfolioImageRef.current,
             {
-                scale: 0, 
+                y: '-20%', 
                 opacity: 0, 
             },
             {
-                scale: 1, 
+                y: '0%', 
                 opacity: 1, 
                 duration: 2.8,
                 ease: 'power4.out',
-                delay: 1.7, 
+                delay: 1.7,
             }
         );
-
     }, []);
 
     return (
@@ -60,11 +58,11 @@ export default function Hero() {
 
                 <div className="hero_image">
                     <div className="portfolio_image">
-                        <img src={portfolioImg} alt="Portfolio" ref={portfolioImageRef} /> {/* Add ref here */}
+                        <img src={portfolioImg} alt="Portfolio" ref={portfolioImageRef} />
                     </div>
                 </div>
             </div>
-            
+
             <div className='arrow'>
                 <p>&darr;</p>
             </div>
