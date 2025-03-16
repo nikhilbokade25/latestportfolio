@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .footer_content{
@@ -14,6 +15,8 @@
     border-radius: 30px;
     background-color: #d6d2ff;
     display: flex;
+    margin-top: 40px;
+    
 }
 
 .footer_linkedin{
@@ -65,6 +68,33 @@
 
 .footer_about h1:hover::after {
     width: 100%;
+}
+
+.footer_socials {
+    width: 80%;
+    height: 8vh;
+    background-color: #d6d2ff;
+    margin-top: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer_socials a {
+    font-size: 40px;
+    margin: 40px 23px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer_socials a:hover {
+    transform: scale(1.1);
+}
+
+.footer_socials svg{
+    color: #8075ff;
 }
 
 

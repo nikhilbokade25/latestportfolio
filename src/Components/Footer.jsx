@@ -31,6 +31,7 @@
 
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -54,6 +55,20 @@ export default function Footer() {
                         <h1>ABOUT NIKHIL</h1>
                     </Link>
                 </div>
+
+
+            </div>
+
+            <div className='footer_socials'>
+            <a href="mailto:nikhilbokade25@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <FaEnvelope />
+                    </a>
+                    <a href="https://www.linkedin.com/in/nikhilbokade/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin />
+                    </a>
+                    <a href="https://github.com/nikhilbokade25" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
             </div>
         </div>
     );
