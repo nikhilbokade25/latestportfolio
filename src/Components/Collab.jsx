@@ -1,6 +1,10 @@
 import './Collab.css';
 
 export default function Collab(){
+    const handleEmailClick = () => {
+        window.location.href = "mailto:nikhilbokade25@gmail.com?subject=Collaboration Inquiry";
+    };
+
     return(
         <div className="collab_container">
             <div className='collab_heading'>
@@ -8,7 +12,7 @@ export default function Collab(){
             </div>
             <div className='collab_text'>
                 <p>Nikhil is excited to help bring your web development vision to life! I'm ready to collaborate and contribute my front-end skills to your next impactful project.</p>
-                <button>Collab with Nikhil</button>
+                <button onClick={handleEmailClick}>Collab with Nikhil</button>
             </div>
         </div>
 
