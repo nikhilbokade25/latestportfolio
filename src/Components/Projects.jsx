@@ -70,7 +70,7 @@ export default function Projects() {
                     <p>A high-energy soda brand designed to keep you refreshed and charged up throughout the day.</p>
                     <p><b>Skills:</b> HTML5, CSS3, GSAP, React.js </p>
                     <div className="project_buttons">
-                        <button onClick={() => window.open('https://boostr.com', '_blank')}>Live Website</button>
+                        <button onClick={() => window.open('https://nikhilbokade25.github.io/Boostr/', '_blank')}>Live Website</button>
                         <button onClick={() => window.open('https://github.com/nikhilbokade25/Boostr', '_blank')}>GitHub</button>
                     </div>
                 </div>
@@ -85,8 +85,8 @@ export default function Projects() {
                     <p>An ice cream brand that brings you the creamiest flavors and the most delightful experience.</p>
                     <p><b>Skills:</b> HTML5, CSS3, GSAP, React.js </p>
                     <div className="project_buttons">
-                        <button onClick={() => window.open('https://frostydelights.com', '_blank')}>Live Website</button>
-                        <button onClick={() => window.open('https://github.com/nikhilbokade25/FrostyDelights', '_blank')}>GitHub</button>
+                        <button onClick={() => window.open('https://nikhilbokade25.github.io/frostydelights/', '_blank')}>Live Website</button>
+                        <button onClick={() => window.open('https://github.com/nikhilbokade25/frostydelights', '_blank')}>GitHub</button>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ export default function Projects() {
                     <p>A candle-making experience where you can craft your own scents and create lasting memories.</p>
                     <p><b>Skills:</b> HTML5, CSS3, GSAP, React.js </p>
                     <div className="project_buttons">
-                        <button onClick={() => window.open('https://thecandlelab.com', '_blank')}>Live Website</button>
+                        <button onClick={() => window.open('https://nikhilbokade25.github.io/TheCandleLab/', '_blank')}>Live Website</button>
                         <button onClick={() => window.open('https://github.com/nikhilbokade25/TheCandleLab', '_blank')}>GitHub</button>
                     </div>
                 </div>
